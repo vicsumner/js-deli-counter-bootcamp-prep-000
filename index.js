@@ -30,28 +30,22 @@ if (i==katzDeliLine.length){
   return "There is nobody waiting to be served!"
 } else {
   return "Currently serving "+ katzDeliLine.shift() + "."; 
-}
-}
-
-
-
-// function currentLine(line){
-//   var i = 0;
-  
-//   if (i<line.length){
-//     return "The line is currently: "+ "1. " + line[0] + ", 2. " + line[1] +", 3. " + line[2]; 
-//   }
-//   else{
-//     return "The line is currently empty.";
-//   }
-  
-// }
-function currentLine(line, customerName){
-   
-  for (var i=0; i<line.length; i++){
-    return line.length
   }
 }
+
+
+function currentLine(line){
+  var i = 0;
+  
+  if (i<line.length){
+    return "The line is currently: "+ "1. " + line[0] + ", 2. " + line[1] +", 3. " + line[2]; 
+  }
+  else{
+    return "The line is currently empty.";
+  }
+  
+}
+
 
 
 
