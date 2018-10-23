@@ -46,9 +46,10 @@ if (i==katzDeliLine.length){
 //   }
   
 // }
-function currentLine(line){
+function currentLine(line, customerName){
+   
   for (var i=0; i<line.length; i++){
-    return line
+    return line.length
   }
 }
 
