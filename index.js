@@ -48,7 +48,7 @@ if (i==katzDeliLine.length){
 // }
 function currentLine(line){
   for (var i=0; i<line.length; i++){
-    return line[i]
+    return line
   }
 }
 
