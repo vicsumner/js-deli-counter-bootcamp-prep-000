@@ -37,10 +37,8 @@ if (i==katzDeliLine.length){
 function currentLine(line){
   var i = 0;
   
-  while (i<line.length){
+ if (i<line.length){
     return "The line is currently: "+ "1. " + line[0] + ", 2. " + line[1] +", 3. " + line[2]; 
-  
-    
   }
   else{
     return "The line is currently empty.";
